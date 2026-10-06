@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 CAge = int(input())
 
 def Sum (x):

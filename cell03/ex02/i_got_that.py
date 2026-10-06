@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 x = 0
 First = str(input("What you gotta say? : ", ))
 

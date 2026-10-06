@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 
 Password = "Python is awesome"
 Type = str(input())

@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 Num = input("Give me a number",)
 
 if "." in str(Num):
