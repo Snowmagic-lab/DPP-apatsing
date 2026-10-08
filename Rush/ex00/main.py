@@ -2,7 +2,7 @@ from Checkmate import checkmate
 
 board = """....
 .K..
-..B.
+.B..
 ...."""
 
 checkmate(board)
