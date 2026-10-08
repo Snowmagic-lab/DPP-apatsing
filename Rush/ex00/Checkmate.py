@@ -11,11 +11,12 @@ def checkmate(board):
             if square == "K":
                 kingR = r
                 kingC = c
+            else:
+                return
 
-
-#เช็ค Pawn  x.x
-#          .p.
-#          ...
+#เช็ค Pawn  x.x                 ...
+#          .p.                 .K.
+#          ...                 P.P
 
     pawnR = kingR + 1 #pawn ต้องอยู่ข้างล่างkingถึงจะกินได้
     if pawnR < len(rows): #กันตกขอบกระดาน
@@ -24,6 +25,7 @@ def checkmate(board):
               if rows[pawnR][pawnC] == "P":
                  print("Success")
                  return
+              
 
 #เช็ค Q กับ R
 

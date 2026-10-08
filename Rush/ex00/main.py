@@ -1,8 +1,8 @@
 from Checkmate import checkmate
 
 board = """....
-.K..
-.B..
-...."""
+....
+....
+.R.."""
 
 checkmate(board)
