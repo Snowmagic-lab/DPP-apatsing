@@ -1,4 +1,6 @@
-code = "U"
+import sys
+
+code = "Code Ninja"
 
 Para = ("Code Ninja", "42", "Numerique")
 
