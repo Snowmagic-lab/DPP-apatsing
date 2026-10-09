@@ -1,6 +1,7 @@
+#!/usr/bin/env python3
 import sys
 
-code = "Code Ninja"
+code = "None"
 
 Para = ("Code Ninja", "42", "Numerique")
 

@@ -11,8 +11,7 @@ def checkmate(board):
             if square == "K":
                 kingR = r
                 kingC = c
-            else:
-                return
+            
 
 #เช็ค Pawn  x.x                 ...
 #          .p.                 .K.
