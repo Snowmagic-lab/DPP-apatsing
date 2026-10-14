@@ -3,6 +3,7 @@
 def checkmate(board):
     kingR = None #Roll ของ King
     kingC = None #Column ของ King
+    king = None
 
     rows = board.splitlines()#แยกแต่ละบรรทัด
 
@@ -11,6 +12,11 @@ def checkmate(board):
             if square == "K":
                 kingR = r
                 kingC = c
+                king = "KING"
+    if king != "KING":
+       print("No king has been found.")
+       return   
+
             
 
 #เช็ค Pawn  x.x                 ...
